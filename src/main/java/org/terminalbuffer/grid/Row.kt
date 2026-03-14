@@ -5,7 +5,7 @@ class Row(val width: Int) {
     var isWrapped = false
 
     fun clear() {
-        cells.forEach{ cell -> cell.reset() };
+        cells.forEach{ cell -> cell.reset() }
         isWrapped = false
     }
 

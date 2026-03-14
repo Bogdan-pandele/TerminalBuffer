@@ -7,7 +7,7 @@ data class Cell(
 )
 {
     fun reset() {
-        this.character = ' ';
+        this.character = ' '
         this.textAttributes = TextAttributes()
     }
 }
