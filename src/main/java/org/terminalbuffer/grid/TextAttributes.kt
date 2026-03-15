@@ -1,9 +1,9 @@
 package org.terminalbuffer.grid
 
 data class TextAttributes (
-    var foregroundColor: TerminalColor = TerminalColor.DEFAULT,
-    var backgroundColor: TerminalColor = TerminalColor.DEFAULT,
-    var flags: Int = 0,
+    val foregroundColor: TerminalColor = TerminalColor.DEFAULT,
+    val backgroundColor: TerminalColor = TerminalColor.DEFAULT,
+    val flags: Int = 0,
 )
 {
     companion object {
